@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>unify-db-index-solr-fi</artifactId>
+    <artifactId>unify-db-index-solr-open</artifactId>
 
     <dependencies>
         <dependency>
