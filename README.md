@@ -1,7 +1,7 @@
 # unify-db
 
 #### 介绍
-让增删改查更简单
+让增删改查更简单,不管是Oracle,mysql,pg,elasticSearch,Solr
 
 #### 软件架构
 软件架构说明
