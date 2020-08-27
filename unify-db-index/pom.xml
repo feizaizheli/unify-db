@@ -12,8 +12,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>unify-db-index-common</module>
-        <module>unify-db-index-es</module>
-        <module>unify-db-index-solr</module>
+        <module>unify-db-index-es-open</module>
+        <module>unify-db-index-solr-open</module>
     </modules>
 
 

@@ -1,7 +1,7 @@
 package cn.com.unify.db.rdb.oracle;
 
 
-import cn.com.nwdc.db.rdb.mybatis.MybatisRdbOperator;
+import cn.com.nwdc.unify.db.rdb.mybatis.MybatisRdbOperator;
 import org.springframework.stereotype.Component;
 
 /**

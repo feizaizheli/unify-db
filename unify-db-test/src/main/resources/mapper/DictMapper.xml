@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.com.nwdc.unify.db.mapper.DictMapper">
+
+
+    <select id="getSqlColumnBySystemType" resultType="java.lang.String">
+        select dict_value FROM sys_data_dict WHERE dict_type = 'systemIdType' AND dict_value = #{systemType} limit 1
+    </select>
+</mapper>

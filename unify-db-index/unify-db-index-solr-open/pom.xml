@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>unify-db-index</artifactId>
+        <groupId>cn.com.nwdc</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>unify-db-index-solr-open</artifactId>
+
+    <dependencies>
+
+
+
+
+
+        <!--Solr 依赖包-->
+        <dependency>
+            <groupId>commons-cli</groupId>
+            <artifactId>commons-cli-hw</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec-hw</artifactId>
+            <version>1.10</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections-hw</artifactId>
+            <version>3.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io-hw</artifactId>
+            <version>2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang-hw</artifactId>
+            <version>2.6</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging-hw</artifactId>
+            <version>1.1.3</version>
+        </dependency>
+        <dependency>
+            <groupId>guava</groupId>
+            <artifactId>guava-hw</artifactId>
+            <version>14.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>hadoop-auth</groupId>
+            <artifactId>hadoop-auth-hw</artifactId>
+            <version>2.7.2</version>
+        </dependency>
+        <dependency>
+            <groupId>hadoop-common</groupId>
+            <artifactId>hadoop-common-hw</artifactId>
+            <version>2.7.2</version>
+        </dependency>
+        <dependency>
+            <groupId>httpclient</groupId>
+            <artifactId>httpclient-hw</artifactId>
+            <version>4.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>httpcore</groupId>
+            <artifactId>httpcore-hw</artifactId>
+            <version>4.4.4</version>
+        </dependency>
+        <dependency>
+            <groupId>httpmime</groupId>
+            <artifactId>httpmime-hw</artifactId>
+            <version>4.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j-hw</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>noggit</groupId>
+            <artifactId>noggit-hw</artifactId>
+            <version>0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>slf4j-api</groupId>
+            <artifactId>slf4j-api-hw</artifactId>
+            <version>1.7.7</version>
+        </dependency>
+        <dependency>
+            <groupId>slf4j-log4j12</groupId>
+            <artifactId>slf4j-log4j12-hw</artifactId>
+            <version>1.7.7</version>
+        </dependency>
+        <dependency>
+            <groupId>solr-core</groupId>
+            <artifactId>solr-core-hw</artifactId>
+            <version>6.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>solr-solrj</groupId>
+            <artifactId>solr-solrj-hw</artifactId>
+            <version>6.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>zookeeper</groupId>
+            <artifactId>zookeeper-hw</artifactId>
+            <version>3.5.1</version>
+        </dependency>
+    </dependencies>
+</project>
